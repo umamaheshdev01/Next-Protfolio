@@ -1,4 +1,4 @@
-'use client'
+
 import React, { Suspense,useState,useEffect } from 'react'
 import './home.css'
 import Social from './Social'

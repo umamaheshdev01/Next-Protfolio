@@ -10,9 +10,16 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
+    "canvas": "^2.11.2",
     "emailjs": "^4.0.3",
     "next": "14.0.4",
+    "pnpm": "^8.14.0",
     "react": "^18",
     "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "20.10.7",
+    "@types/react": "18.2.47",
+    "typescript": "5.3.3"
   }
 }

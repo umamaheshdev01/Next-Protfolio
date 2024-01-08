@@ -1,5 +1,7 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -16,7 +18,7 @@
   --container-color: #fff;
 
   /*========== Font and typography ==========*/
-  --body-font: "Poppins", sans-serif;
+  --body-font: "Karla", sans-serif;
 
   /*.5rem = 8px | 1rem = 16px ...*/
   --big-font-size: 3.25rem;

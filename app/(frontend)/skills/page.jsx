@@ -10,7 +10,7 @@ const Skills = () => {
   return (
     <>
     <Header></Header>
-    <Qualification></Qualification>
+    {/* <Qualification></Qualification> */}
     <section className="skills section" id="skills">
         <h2 className="section__title">
             Skills

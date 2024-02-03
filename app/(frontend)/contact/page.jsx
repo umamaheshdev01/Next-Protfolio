@@ -96,17 +96,17 @@ const Contact = () => {
           <form ref={form} onSubmit={sendEmail}className="contact__form">
             <div className="contact__form-div">
               <label htmlFor="" className="contact__form-tag">Name</label>
-              <input type="text" name="name" className='contact__form-input' placeholder='Insert your name' />
+              <input type="text" name="name" className='contact__form-input ' placeholder='Insert your name' />
             </div>
 
             <div className="contact__form-div">
               <label htmlFor="" className="contact__form-tag">Email</label>
-              <input type="email" name="name" className='contact__form-input' placeholder='Insert your email' />
+              <input type="email" name="name" className='contact__form-input '  placeholder='Insert your email' />
             </div>
 
             <div className="contact__form-div contact__form-area">
               <label htmlFor="" className="contact__form-tag">Project</label>
-              <textarea name="project" id="" cols="30" rows="10" className='contact__form-input' placeholder='Write your project'></textarea>
+              <textarea name="project" id="" cols="30" rows="10" className='contact__form-input ccc' placeholder='Write your project'></textarea>
             </div>
 
 

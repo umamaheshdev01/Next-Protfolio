@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600&display=swap');
 
+
+*{
+   line-height: 25px;
+}
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3rem;
@@ -11,11 +15,20 @@
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 0;
   --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 15%);
+  /* --title-color: hsl(var(--hue), var(--sat), 15%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff;
+  --text-color: hsl(var(--hue), var(--sat), 46%); */
+  
+  --title-color: #E2E3E5;
+  --title-color-dark: #E2E3E5;
+  --text-color:#E2E3E5;
+
+
+  /* --body-color: hsl(var(--hue), var(--sat), 98%); */
+  --body-color : #111827;
+  /* --container-color: #fff; */
+
+  --container-color : #1D2432;
 
   /*========== Font and typography ==========*/
   --body-font: "Karla", sans-serif;
@@ -28,7 +41,7 @@
   --normal-font-size: 1rem;
   --small-font-size: 0.875rem;
   --smaller-font-size: 0.813rem;
-  --tiny-font-size: 0.625rem;
+  --tiny-font-size: 0.725rem;
 
   /*========== Font weight ==========*/
   --font-normal: 400;
